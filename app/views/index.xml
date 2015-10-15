@@ -1,0 +1,21 @@
+<Alloy>
+    <Window id="mainMenuWin">
+    	<ImageView id="titleImageView"/>
+    	<View id="optionsContainerView">
+	    	<View id="normalModeView" class="optionView">
+	    		<Label id="normalModeLabel" class="optionLabel"/>
+	    	</View>
+	    	<Label id="normalModeInfoLabel" class="optionInfoLabel"/>
+	    	<View id="unlimitedModeView" class="optionView">
+	    		<Label id="unlimitedModeLabel" class="optionLabel"/>
+	    	</View>
+	    	<Label id="unlimitedModeInfoLabel" class="optionInfoLabel"/>
+	    	<View id="highscoresView" class="optionView">
+	    		<Label id="highscoresLabel" class="optionLabel"/>
+	    	</View>
+	    	<View id="howToPlayView" class="optionView">
+	    		<Label id="howToPlayLabel" class="optionLabel"/>
+	    	</View>
+	    </View>
+    </Window>
+</Alloy>

@@ -1,0 +1,60 @@
+"#mainMenuWin": {
+    backgroundColor: "#fff"
+},
+
+"#titleImageView": {
+    top: 40,
+    left: 10,
+    right: 10,
+    height: 200,
+    backgroundColor: "#f00"
+},
+
+"#optionsContainerView": {
+    bottom: 30,
+    height: Ti.UI.SIZE,
+    layout: "vertical"
+},
+
+".optionView": {
+    top: 20,
+    height: 40,
+    width: Ti.UI.SIZE,
+    borderWidth: 1,
+    borderColor: Alloy.Globals.colors.mainMenuButtonBorder,
+    backgroundColor: Alloy.Globals.colors.mainMenuButtonBackground
+},
+".optionLabel": {
+    font: {
+        fontSize: 20,
+        fontWeight: "bold"
+    },
+    color: Alloy.Globals.colors.mainMenuButtonText,
+    touchEnabled: false
+},
+".optionInfoLabel": {
+    top: 5,
+    font: {
+        fontSize: 12
+    },
+    color: Alloy.Globals.colors.mainMenuInfoText
+},
+
+"#normalModeLabel": {
+    text: "  Normal  "
+},
+"#normalModeInfoLabel": {
+    text: "3 Lives"
+},
+"#unlimitedModeLabel": {
+    text: "   ∞   "
+},
+"#unlimitedModeInfoLabel": {
+    text: "Unlimited Lives"
+},
+"#highscoresLabel": {
+    text: "  Highscores  "
+},
+"#howToPlayLabel": {
+    text: "  How to Play  "
+}
