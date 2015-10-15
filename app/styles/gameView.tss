@@ -1,0 +1,62 @@
+"#gameView" : {
+	backgroundColor: "orange"	
+},
+
+"#topInfoContainerView" : {
+	top: 40,
+	height: Ti.UI.SIZE
+},
+
+"#scoreContainerView" : {
+	left: 10,
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	layout: "horizontal"
+},
+".scoreLabels" : {
+	font : {
+		fontSize: 15
+	},
+	color: "#000"
+},
+"#scoreTextLabel" : {
+	text: "Score: "
+},
+"#scoreLabel" : {
+	text: "0"
+},
+
+"#livesContainerView" : {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	layout: "horizontal"
+},
+
+"#closeLabel" : {
+	right: 10,
+	height: 22,
+	width: 22,
+	font: {
+		fontSize: 20
+	},
+	color: "#000",
+	text: "x"	
+},
+
+"#sequenceDisplayLabel" : {
+	top : 100,
+	font: {
+		fontSize: 20
+	},
+	color: "#000"
+}
+
+
+"#buttonsContainerView" : {
+	bottom: 0,
+	left:1,
+	right:1,
+	height: Ti.UI.SIZE,
+	width: Ti.UI.FILL,
+	layout: "horizontal"	
+}

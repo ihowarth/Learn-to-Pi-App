@@ -1,0 +1,5 @@
+<Alloy>
+	<View id="highscoresView">
+		<Label id="closeLabel"/>
+	</View>
+</Alloy>

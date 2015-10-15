@@ -1,0 +1,11 @@
+"#howToPlayView" : {
+	backgroundColor: "yellow"	
+},
+
+"#closeLabel" : {
+	font: {
+		fontSize: 20
+	},
+	color: "#000",
+	text: "x"	
+}

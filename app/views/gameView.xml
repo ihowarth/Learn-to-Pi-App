@@ -1,0 +1,14 @@
+<Alloy>
+	<View id="gameView">
+		<View id="topInfoContainerView">
+			<View id="scoreContainerView">
+				<Label id="scoreTextLabel" class="scoreLabels"/>
+				<Label id="scoreLabel" class="scoreLabels"/>
+			</View>
+			<View id="livesContainerView"/>
+			<Label id="closeLabel"/>
+		</View>
+		<Label id="sequenceDisplayLabel"/>
+		<View id="buttonsContainerView"/>
+	</View>
+</Alloy>

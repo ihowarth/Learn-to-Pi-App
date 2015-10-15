@@ -1,0 +1,14 @@
+"#buttonView": {
+    height: 60,
+    width: "33.2%",
+    backgroundColor: Alloy.Globals.colors.gameViewButtonBackground
+},
+
+"#numberLabel": {
+    font: {
+        fontSize: 20,
+        fontWeight: "bold"
+    },
+    color: Alloy.Globals.colors.gameViewButtonText,
+    touchEnabled: false
+}
